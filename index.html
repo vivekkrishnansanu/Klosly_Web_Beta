@@ -1,12 +1,219 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="refresh" content="0; url=./v3.html">
-  <link rel="canonical" href="./v3.html">
-  <title>Klosly</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
 </head>
 <body>
-  <p>Redirecting to <a href="./v3.html">v3.html</a>...</p>
+<x-dc>
+<helmet data-dc-atomics>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@1,6..72,400;1,6..72,500&display=swap" rel="stylesheet">
+<style>
+body{margin:0;--acc:#3ddc7a;background:#0a140d;color:#f2efe7;font-family:'Space Grotesk',sans-serif;overflow-x:hidden}
+a{color:var(--acc)}a:hover{color:#8fe8b4}
+.ser{font-family:'Newsreader',serif;font-style:italic;font-weight:400}
+.lbl{font-size:11px;font-weight:700;letter-spacing:.24em;text-transform:uppercase}
+.dim{color:#9db3a2}.mut{color:#6d7f72}
+.journey{position:relative;height:780vh}
+.gentle .journey{height:420vh}
+.stage3{position:sticky;top:0;height:100vh;overflow:hidden;perspective:1500px}
+.bgw{position:absolute;inset:0;transition:background .1s linear}
+.ghost{position:absolute;left:50%;top:50%;transform:translate(calc(-50% - var(--p,0)*20vw),-50%);font-size:clamp(150px,27vw,430px);font-weight:800;letter-spacing:-.05em;line-height:1;color:transparent;-webkit-text-stroke:1.5px rgba(240,238,230,.13);z-index:1;white-space:nowrap;pointer-events:none;user-select:none}
+.rio{--v:min(clamp(0,(var(--p,0) - var(--a,0))*var(--k,10),1),clamp(0,(var(--o,1) - var(--p,0))*var(--k,10),1));opacity:var(--v);transform:translateY(calc((1 - var(--v))*30px))}
+.corner{position:absolute;z-index:6;font-size:11px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:#b8c9bc;line-height:1.7}
+.phone3{position:absolute;left:50%;top:50%;height:min(660px,84vh);aspect-ratio:320/660;width:auto;max-width:78vw;transform-origin:center;margin-top:0;translate:0 -50%;z-index:10;border-radius:48px;background:#0c0f0d;border:1px solid rgba(190,220,200,.25);box-shadow:0 90px 180px rgba(0,0,0,.65),0 0 120px rgba(61,220,122,.12);transform:translateX(calc(-50% + var(--px,0vw))) rotateY(var(--ry,0deg)) rotateX(var(--rx,0deg)) rotateZ(var(--rz,0deg)) scale(var(--sc,1))}
+.pscr{position:absolute;inset:9px;border-radius:40px;background:#0a0f0c;overflow:hidden}
+.island{position:absolute;top:11px;left:50%;transform:translateX(-50%);width:94px;height:27px;border-radius:16px;background:#000;z-index:6;display:flex;align-items:center;justify-content:flex-end;padding:0 8px;box-sizing:border-box}
+.cam{width:11px;height:11px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#2a3a55,#0a0f1a 62%)}
+.sbar{position:absolute;top:13px;left:0;right:0;display:flex;justify-content:space-between;align-items:center;padding:0 26px;font-size:12.5px;font-weight:600;z-index:5;color:#e9edef}
+.sig{display:flex;gap:2.5px;align-items:flex-end}
+.sig i{width:3px;background:#e9edef;border-radius:1px}
+.batt{width:22px;height:11px;border:1px solid rgba(233,237,239,.5);border-radius:3.5px;padding:1.5px;box-sizing:border-box;margin-left:5px}
+.batt i{display:block;height:100%;width:72%;background:#e9edef;border-radius:1.5px}
+.btn3{position:absolute;background:#2a322c;border-radius:3px}
+.orb{position:absolute;border-radius:50%;filter:blur(90px);pointer-events:none;z-index:0}
+.vign{position:absolute;inset:0;z-index:2;pointer-events:none;background:radial-gradient(125% 95% at 50% 50%,transparent 56%,rgba(0,0,0,.52))}
+.scr.wa{padding:44px 0 0;background:#0b141a;gap:0}
+.wah{display:flex;align-items:center;justify-content:space-between;padding:10px 16px 8px;font-weight:700;font-size:17px;color:#e9edef}
+.warow{display:flex;gap:11px;padding:8px 14px;align-items:center;border-bottom:1px solid rgba(134,150,160,.08)}
+.waav{width:42px;height:42px;border-radius:50%;flex:none;display:grid;place-items:center;font-weight:700;font-size:16px;color:#fff}
+.wanm{font-size:14px;font-weight:600;color:#e9edef}
+.wapre{font-size:12px;color:#8696a0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:140px;margin-top:2px}
+.watime{font-size:11px;color:#8696a0;margin-left:auto;text-align:right;flex:none}
+.wagreen{color:#25d366}
+.wapill{background:#25d366;color:#0b141a;font-size:11px;font-weight:700;border-radius:10px;min-width:19px;height:19px;display:grid;place-items:center;margin:4px 0 0 auto;padding:0 5px}
+.scr.wachat{padding:88px 12px 14px;background:#0b141a;background-image:radial-gradient(rgba(255,255,255,.025) 1px,transparent 1px);background-size:16px 16px;gap:7px;justify-content:flex-end}
+.wach{position:absolute;top:44px;left:0;right:0;display:flex;gap:10px;align-items:center;padding:8px 14px;background:#1f2c33;z-index:3}
+.wab{max-width:80%;padding:7px 10px 6px;border-radius:9px;font-size:13.5px;line-height:1.4;color:#e9edef;box-shadow:0 1px 1px rgba(0,0,0,.3)}
+.win3{background:#202c33;align-self:flex-start;border-top-left-radius:2px}
+.wout3{background:#005c4b;align-self:flex-end;border-top-right-radius:2px}
+.wmeta{font-size:10px;color:#8fa8a2;float:right;margin:7px -2px -2px 8px}
+.tickb{color:#53bdeb}
+.banner{position:absolute;left:8px;right:8px;top:44px;background:rgba(22,26,24,.94);backdrop-filter:blur(12px);border-radius:16px;padding:10px 12px;display:flex;gap:10px;align-items:center;z-index:7;box-shadow:0 12px 32px rgba(0,0,0,.45);transform:translateY(-100px)}
+.appic{width:34px;height:34px;border-radius:9px;flex:none;display:grid;place-items:center;font-weight:800;color:#fff;font-size:15px}
+.b1{animation:ban 9s .5s infinite}.b2{animation:ban 9s 5s infinite}
+@keyframes ban{0%,3%{transform:translateY(-100px)}8%,40%{transform:translateY(0)}45%,100%{transform:translateY(-100px)}}
+.scr{position:absolute;inset:0;padding:54px 14px 16px;display:flex;flex-direction:column;gap:8px;--v:min(clamp(0,(var(--p,0) - var(--a))*16,1),clamp(0,(var(--o) - var(--p,0))*16,1));opacity:var(--v);transform:translateY(calc((1 - var(--v))*26px))}
+.crow{display:flex;align-items:center;gap:10px;background:#141b16;border-radius:12px;padding:10px;font-size:12px}
+.pd{width:10px;height:10px;border-radius:50%;flex:none}.ig{background:linear-gradient(45deg,#f09433,#dc2743,#bc1888)}.wa{background:#25d366}.cl{background:#e2574c}
+.badge{margin-left:auto;background:#e2574c;color:#fff;font-weight:700;border-radius:9px;min-width:18px;height:18px;display:grid;place-items:center;font-size:11px;padding:0 5px;flex:none}
+.gbadge{background:var(--acc);color:#08130c}
+.tab{flex:1;text-align:center;font-size:11px;font-weight:700;padding:8px 0;border-radius:10px;color:#7f947f}
+.tab.on{background:var(--acc);color:#08130c}
+.cmsg{background:#1a3324;border-radius:4px 14px 14px 14px;padding:10px 12px;font-size:13px;max-width:85%;align-self:flex-start;line-height:1.45}
+.amsg{background:var(--acc);color:#07130c;border-radius:14px 4px 14px 14px;padding:10px 12px;font-size:13px;font-weight:500;max-width:85%;align-self:flex-end;line-height:1.45}
+.chip3{border:1px dashed #3f9463;color:#9fe0b8;border-radius:12px;padding:9px 12px;font-size:11.5px;line-height:1.4}
+.ocard{background:#141b16;border:1px solid #2b5138;border-radius:16px;padding:16px}
+.orow{display:flex;justify-content:space-between;font-size:13px;padding:7px 0;border-bottom:1px solid #1d2a20}
+.stampg{display:inline-block;border:2.5px solid var(--acc);color:var(--acc);border-radius:6px;padding:3px 10px;font-weight:700;font-size:11px;letter-spacing:.14em;text-transform:uppercase;transform:rotate(-4deg)}
+.tline{display:flex;flex-direction:column;gap:0;margin-top:4px}
+.tstep{display:flex;gap:12px;font-size:13px;align-items:flex-start}
+.tdot{width:12px;height:12px;border-radius:50%;background:var(--acc);flex:none;margin-top:3px}
+.tbar{width:2px;height:26px;background:#2b5138;margin-left:5px}
+.bar{height:10px;border-radius:5px;background:var(--acc)}
+.side{position:absolute;top:50%;transform:translateY(-50%);width:min(380px,34vw);z-index:5}
+.side h2{font-size:clamp(26px,3vw,46px);line-height:1.05;letter-spacing:-.02em;margin:16px 0 0;font-weight:400}
+.side p{font-size:15px;line-height:1.65;color:#b9cdbd;margin:18px 0 0}
+.sL{left:clamp(20px,6vw,110px)}.sR{right:clamp(20px,6vw,110px);text-align:right}
+.heroH{position:absolute;left:clamp(20px,6vw,110px);top:12vh;z-index:2;font-weight:600;font-size:clamp(44px,6.6vw,110px);line-height:1;letter-spacing:-.04em;margin:0}
+.heroP{position:absolute;right:clamp(20px,6vw,110px);top:16vh;width:min(300px,30vw);z-index:5;font-size:clamp(15px,1.3vw,19px);line-height:1.6;color:#cfe0d2;text-align:left}
+.cta{display:inline-block;background:var(--acc);color:#07130c;font-weight:700;font-size:15px;letter-spacing:.08em;text-transform:uppercase;padding:17px 32px;border-radius:999px;text-decoration:none;box-shadow:0 20px 50px rgba(35,160,90,.35);transition:transform .15s}
+.cta:hover{transform:translateY(-2px);color:#07130c}
+.fio{opacity:0;transform:translateY(28px);transition:opacity .8s ease var(--d,0s),transform .8s ease var(--d,0s)}
+.inview .fio{opacity:1;transform:none}
+.light{background:#eef3e9;color:#14211a}
+.light .mut{color:#5d6f60}
+.statn{font-size:clamp(46px,5vw,80px);font-weight:700;letter-spacing:-.04em;line-height:1;color:#123722}
+@media (max-width:900px){.ghost{font-size:44vw}.side{width:min(300px,86vw);top:auto;bottom:5vh;transform:none}.sR{text-align:left;right:auto;left:20px}.heroH{font-size:13vw}.heroP{display:none}.phone3{--sc:.82}}
+</style>
+</helmet>
+<div class="journey" data-pin data-screen-label="Klosly scroll journey">
+<div class="stage3">
+<div class="bgw" id="bgw"></div>
+<div class="orb" style="left:8%;top:12%;width:34vw;height:34vw;background:rgba(61,220,122,.14);transform:translateY(calc(var(--p,0)*-24vh))"></div>
+<div class="orb" style="right:4%;bottom:8%;width:28vw;height:28vw;background:rgba(120,200,255,.08);transform:translateY(calc(var(--p,0)*18vh))"></div>
+<div class="ghost">KLOSLY</div>
+<div class="vign"></div>
+<div class="corner rio" style="left:24px;top:20px;--a:-1;--o:.1">Klosly<br><span class="mut">Social commerce OS</span></div>
+<div class="corner rio" style="left:27%;top:20px;--a:-1;--o:.1">Category<br><span class="mut">Instagram + WhatsApp sellers</span></div>
+<div class="corner rio" style="right:24px;top:20px;text-align:right;--a:-1;--o:.1">Status<br><span class="mut">Beta · ₹0 · India</span></div>
+<div class="corner rio" style="left:24px;bottom:24px;--a:-1;--o:.1">Built with<br><span class="mut">13 founding sellers</span></div>
+<div class="corner rio" style="right:24px;bottom:24px;text-align:right;--a:-1;--o:.1">Jul 2026<br><span class="mut">klosly.com</span></div>
+<h1 class="heroH rio" style="--a:-1;--o:.115">The future of<br>selling in<br>your <span class="ser" style="color:var(--acc)">DMs</span></h1>
+<div class="heroP rio" style="--a:-1;--o:.115">Klosly turns the flood of chats on your phone into orders, payments and deliveries — without you leaving the conversation.</div>
+<div class="corner rio tc" style="left:50%;transform:translateX(-50%);bottom:8px;--a:-1;--o:.09;letter-spacing:.3em;z-index:11">Scroll ↓</div>
+<div class="side sR rio" style="--a:.155;--o:.27"><div class="lbl" style="color:#e8a793">Act 1 — The pileup</div><h2>47 unread.<br>And counting.</h2><p>Instagram, WhatsApp, voice notes, missed calls, payment screenshots. Every slip is a customer — and some are already leaving.</p></div>
+<div class="side sL rio" style="--a:.3;--o:.415"><div class="lbl" style="color:var(--acc)">Act 2 — The turn</div><h2>One inbox.<br>Every channel.</h2><p>Klosly folds every thread into a single calm queue. Nothing sinks, nothing waits two days, nothing gets lost in requests.</p></div>
+<div class="side sR rio" style="--a:.44;--o:.555"><div class="lbl" style="color:var(--acc)">Act 3 — The clerk</div><h2>AI that replies<br>like you.</h2><p>Your tone, your prices, your delivery days. It drafts — you tap once to send. 41 seconds from question to answer.</p></div>
+<div class="side sL rio" style="--a:.585;--o:.7"><div class="lbl" style="color:var(--acc)">Act 4 — The sale</div><h2>Chat → order →<br>payment.</h2><p>Order #214 is created inside the conversation. UPI confirmed. No spreadsheet, no copy-paste, no “which order is this for?”</p></div>
+<div class="side sR rio" style="--a:.725;--o:.84"><div class="lbl" style="color:var(--acc)">Act 5 — The handoff</div><h2>Shipping handles<br>itself.</h2><p>Label generated, pickup booked, customer updated automatically at every step — while you answer the next customer.</p></div>
+<div class="side sL rio" style="--a:.87;--o:1"><div class="lbl" style="color:var(--acc)">Act 6 — The growth</div><h2>Grow with the<br>founding 13.</h2><p>3× faster orders. 68% fewer missed leads. ₹0 during beta — you’re not buying software, you’re helping build it.</p><div style="margin-top:28px"><a class="cta" href="mailto:hello@klosly.com?subject=Join the Klosly beta">Join the Beta</a></div></div>
+<div class="phone3"><div class="btn3" style="left:-3px;top:110px;width:3px;height:26px"></div><div class="btn3" style="left:-3px;top:150px;width:3px;height:44px"></div><div class="btn3" style="left:-3px;top:204px;width:3px;height:44px"></div><div class="btn3" style="right:-3px;top:150px;width:3px;height:66px"></div><div class="pscr"><div class="island"><span class="cam"></span></div><div class="sbar"><span>9:41</span><span class="fx ac"><span class="sig"><i style="height:4px"></i><i style="height:6px"></i><i style="height:8px"></i><i style="height:10px"></i></span><span class="batt" style="margin-left:6px"><i></i></span></span></div>
+<div class="scr" style="--a:-1;--o:.145;justify-content:center;align-items:center;gap:14px"><div style="width:64px;height:64px;border-radius:50%;background:var(--acc);display:grid;place-items:center;color:#07130c;font-weight:800;font-size:28px">k</div><div style="font-weight:700;font-size:24px;letter-spacing:-.02em">klosly<span style="color:var(--acc)">.</span></div><div class="mut fs12 tc" style="line-height:1.6">every conversation<br>becomes a sale</div><div class="stampg" style="margin-top:10px">Beta · ₹0</div></div>
+<div class="scr wa" style="--a:.155;--o:.29">
+<div class="wah"><span>Chats</span><span style="font-size:18px;letter-spacing:3px;color:#8696a0">⋮</span></div>
+<div class="warow"><div class="waav" style="background:#7a4fbb">P</div><div><div class="wanm">priya_j</div><div class="wapre">Is it available?</div></div><div class="watime"><div class="wagreen">10:02</div><div class="wapill">3</div></div></div>
+<div class="warow"><div class="waav" style="background:#c2703a">R</div><div><div class="wanm">Rahul</div><div class="wapre">Price?? Hello??</div></div><div class="watime"><div class="wagreen">09:58</div><div class="wapill">7</div></div></div>
+<div class="warow"><div class="waav" style="background:#3a8ac2">A</div><div><div class="wanm">Ananya</div><div class="wapre">🎤 Voice note · 0:42</div></div><div class="watime"><div class="wagreen">09:47</div><div class="wapill">1</div></div></div>
+<div class="warow"><div class="waav" style="background:#b04a3a">☎</div><div><div class="wanm">Missed call</div><div class="wapre" style="color:#e2574c">+91 98······12</div></div><div class="watime">09:31</div></div>
+<div class="warow"><div class="waav" style="background:#4aa06a">K</div><div><div class="wanm">kavya.home</div><div class="wapre">Can you ship tomorrow?</div></div><div class="watime"><div class="wagreen">09:15</div><div class="wapill">2</div></div></div>
+<div class="warow"><div class="waav" style="background:#c2703a">R</div><div><div class="wanm">Rahul</div><div class="wapre">📎 payment-screenshot.jpg</div></div><div class="watime">08:52</div></div>
+<div class="warow"><div class="waav" style="background:#8a6a3a">S</div><div><div class="wanm">Sana</div><div class="wapre">Hello? You there?</div></div><div class="watime"><div>Yesterday</div><div class="wapill">4</div></div></div>
+<div class="warow" style="opacity:.5"><div class="waav" style="background:#7a4fbb">P</div><div><div class="wanm">priya_j</div><div class="wapre">seen 2 days ago · no reply</div></div><div class="watime">Tue</div></div>
+<div class="banner b1"><div class="appic" style="background:linear-gradient(45deg,#f09433,#dc2743,#bc1888)">◎</div><div class="f1" style="min-width:0"><div class="fs12 fw7" style="color:#e9edef">Instagram</div><div class="fs12" style="color:#9fb0a6;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">priya_j: Hi! Is the sage cardigan still available?</div></div><span class="fs11" style="color:#8696a0">now</span></div>
+<div class="banner b2"><div class="appic" style="background:#25d366">✆</div><div class="f1" style="min-width:0"><div class="fs12 fw7" style="color:#e9edef">WhatsApp</div><div class="fs12" style="color:#9fb0a6;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Rahul: 📎 payment-screenshot.jpg</div></div><span class="fs11" style="color:#8696a0">now</span></div>
+</div>
+<div class="scr" style="--a:.3;--o:.435"><div class="fx gap6" style="background:#141b16;border-radius:12px;padding:4px"><span class="tab on">All</span><span class="tab">Instagram</span><span class="tab">WhatsApp</span></div><div class="crow"><span class="pd ig"></span><span class="f1"><b>priya_j</b><span class="mut"> · replied</span></span><span class="badge gbadge">✓</span></div><div class="crow"><span class="pd wa"></span><span class="f1"><b>Rahul</b><span class="mut"> · quoted ₹1,240</span></span><span class="badge gbadge">✓</span></div><div class="crow"><span class="pd wa"></span><span class="f1"><b>Ananya</b><span class="mut"> · note transcribed</span></span><span class="badge gbadge">✓</span></div><div class="crow"><span class="pd cl"></span><span class="f1"><b>Callback</b><span class="mut"> · scheduled 6pm</span></span><span class="badge gbadge">✓</span></div><div class="crow"><span class="pd ig"></span><span class="f1"><b>kavya.home</b><span class="mut"> · follow-up queued</span></span><span class="badge gbadge">✓</span></div><div class="tc mut fs12" style="margin-top:auto;padding-bottom:8px">All caught up ✦</div></div>
+<div class="scr wachat" style="--a:.44;--o:.575">
+<div class="wach"><div class="waav" style="background:#7a4fbb;width:32px;height:32px;font-size:13px">P</div><div><div class="wanm">priya_j</div><div class="fs11" style="color:#8696a0">online</div></div><span style="margin-left:auto;color:#8696a0;letter-spacing:3px">⋮</span></div>
+<div class="wab win3">Can I customise this in mustard? 🧡<span class="wmeta">10:02</span></div>
+<div class="chip3" style="align-self:flex-end;background:rgba(20,27,22,.9)"><b style="color:var(--acc)">✦ Klosly drafts</b><br>Yes! Mustard takes 4 extra days — shall I reserve one?</div>
+<div class="wab wout3">Yes! Mustard takes 4 extra days — shall I reserve one?<span class="wmeta">10:03 <span class="tickb">✓✓</span></span></div>
+<div class="wab win3">Perfect, reserve it!<span class="wmeta">10:04</span></div>
+<div class="fx ac gap8" style="background:#1f2c33;border-radius:999px;padding:10px 14px;font-size:12.5px;margin-top:4px"><span style="color:#8696a0" class="f1">Message…</span><span style="color:var(--acc);font-weight:800">✦</span></div>
+</div>
+<div class="scr" style="--a:.585;--o:.72;justify-content:center;gap:12px"><div class="ocard"><div class="fx ac jb"><b class="fs14">Order #214</b><span class="mut fs12">from chat</span></div><div class="orow" style="margin-top:8px"><span>Sage cardigan · mustard</span><span>₹1,140</span></div><div class="orow"><span>Shipping · Jaipur → Delhi</span><span>₹100</span></div><div class="orow" style="border:0;font-weight:700"><span>Total</span><span>₹1,240</span></div></div><div class="ocard fx ac jb"><div><b class="fs14">UPI · priya_j</b><div class="mut fs12" style="margin-top:4px">10:11 am · today</div></div><span class="stampg">Paid ✓</span></div></div>
+<div class="scr" style="--a:.725;--o:.86;justify-content:center"><div class="ocard"><b class="fs14">Shipment · #214</b><div class="tline" style="margin-top:14px"><div class="tstep"><span class="tdot"></span><span><b>Label generated</b><br><span class="mut fs12">auto · 10:12 am</span></span></div><div class="tbar"></div><div class="tstep"><span class="tdot"></span><span><b>Pickup booked</b><br><span class="mut fs12">tomorrow · 11 am</span></span></div><div class="tbar"></div><div class="tstep"><span class="tdot"></span><span><b>Out for delivery</b><br><span class="mut fs12">customer notified</span></span></div><div class="tbar"></div><div class="tstep"><span class="tdot" style="box-shadow:0 0 14px var(--acc)"></span><span><b>Delivered ✓</b><br><span class="mut fs12">Thursday · Delhi</span></span></div></div></div></div>
+<div class="scr" style="--a:.87;--o:2;justify-content:center;gap:12px"><b class="fs14" style="padding:0 4px">This month</b><div class="ocard"><div class="fx ac jb fs13"><span class="mut">Orders</span><b>3× faster</b></div><div class="bar mt8" style="width:92%"></div></div><div class="ocard"><div class="fx ac jb fs13"><span class="mut">Missed leads</span><b style="color:var(--acc)">−68%</b></div><div class="bar mt8" style="width:32%;background:#2b5138"></div></div><div class="ocard"><div class="fx ac jb fs13"><span class="mut">Revenue</span><b>₹48,200</b></div><div class="bar mt8" style="width:74%"></div></div><div class="tc" style="margin-top:6px"><span class="stampg">Join the beta · ₹0</span></div></div>
+</div></div>
+</div>
+</div>
+<section class="light tc" data-io data-screen-label="Closing — Join the beta" style="padding:18vh 24px;display:flex;flex-direction:column;align-items:center;gap:5vh">
+<h2 class="fio" style="font-size:clamp(38px,5.4vw,84px);font-weight:600;letter-spacing:-.03em;line-height:1.04;margin:0;color:#123722">Stop managing chats.<br><span class="ser" style="color:var(--acc)">Start growing.</span></h2>
+<div class="fx jc wrap" style="gap:clamp(28px,5vw,80px)">
+<div class="fio" style="--d:.1s"><div class="statn">3×</div><div class="lbl mut" style="margin-top:8px">faster orders</div></div>
+<div class="fio" style="--d:.2s"><div class="statn">68%</div><div class="lbl mut" style="margin-top:8px">fewer missed leads</div></div>
+<div class="fio" style="--d:.3s"><div class="statn">{{beta}}</div><div class="lbl mut" style="margin-top:8px">businesses in beta</div></div>
+<div class="fio" style="--d:.4s"><div class="statn">₹0</div><div class="lbl mut" style="margin-top:8px">during beta</div></div>
+</div>
+<div class="fio" style="--d:.5s"><a class="cta" href="mailto:hello@klosly.com?subject=Join the Klosly beta">Join the Beta</a></div>
+<p class="mut fs14 fio" style="--d:.6s;margin:0">klosly. · made for Indian social sellers · <a href="mailto:hello@klosly.com" style="color:#1d4a2e">hello@klosly.com</a></p>
+</section>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;accent&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#3ddc7a&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;options&quot;:[&quot;#3ddc7a&quot;,&quot;#2fbf71&quot;,&quot;#a3e635&quot;,&quot;#35d0ba&quot;],&quot;section&quot;:&quot;Brand&quot;},&quot;motion&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;default&quot;:&quot;cinematic&quot;,&quot;options&quot;:[&quot;cinematic&quot;,&quot;gentle&quot;],&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Experience&quot;},&quot;betaCount&quot;:{&quot;editor&quot;:&quot;int&quot;,&quot;default&quot;:13,&quot;min&quot;:1,&quot;max&quot;:500,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Content&quot;}}">
+class Component extends DCLogic {
+  componentDidMount() {
+    this.applyProps();
+    this.journey = document.querySelector('.journey');
+    this.stage = document.querySelector('.stage3');
+    this.phone = document.querySelector('.phone3');
+    this.bgw = document.getElementById('bgw');
+    this.stops = [[10,20,13],[38,18,12],[12,31,22],[14,42,28],[17,53,36],[22,64,43],[29,81,54]];
+    this.sp = 0;
+    this.xs = [0, 6.5, -6.5, 6.5, -6.5, 6.5, -5];
+    this._alive = true;
+    this._loop = () => {
+      if (!this._alive) return;
+      const vh = window.innerHeight;
+      const r = this.journey.getBoundingClientRect();
+      const total = r.height - vh;
+      const target = Math.min(1, Math.max(0, total > 0 ? -r.top / total : 1));
+      this.sp += (target - this.sp) * 0.09;
+      if (Math.abs(target - this.sp) < 0.0004) this.sp = target;
+      const p = this.sp;
+      this.journey.style.setProperty('--p', p.toFixed(4));
+      const t = p * 6;
+      const idx = Math.min(5, Math.floor(t));
+      const f = t - idx;
+      const e = f * f * (3 - 2 * f);
+      const A = this.stops[idx], B = this.stops[idx + 1];
+      const c = A.map((a, i) => Math.round(a + (B[i] - a) * f));
+      this.bgw.style.background = 'radial-gradient(120% 100% at 50% 0%, rgb(' + c.map(x => Math.min(255, x + 14)).join(',') + '), rgb(' + c.join(',') + ') 70%)';
+      const phase = f * Math.PI;
+      const dir = idx % 2 ? -1 : 1;
+      const px = this.xs[idx] + (this.xs[idx + 1] - this.xs[idx]) * e;
+      const settle = Math.max(0, 1 - p * 10);
+      const st = this.phone.style;
+      st.setProperty('--px', px.toFixed(3) + 'vw');
+      st.setProperty('--ry', (14 * Math.sin(phase) * dir).toFixed(2) + 'deg');
+      st.setProperty('--rx', (4 * Math.sin(phase)).toFixed(2) + 'deg');
+      st.setProperty('--rz', (2.4 * Math.sin(p * Math.PI * 2)).toFixed(2) + 'deg');
+      st.setProperty('--sc', (1 + 0.05 * Math.sin(phase) + 0.1 * settle).toFixed(4));
+      requestAnimationFrame(this._loop);
+    };
+    requestAnimationFrame(this._loop);
+    this.io = new IntersectionObserver(es => {
+      for (const e of es) if (e.isIntersecting) { e.target.classList.add('inview'); this.io.unobserve(e.target); }
+    }, { threshold: 0.25 });
+    document.querySelectorAll('[data-io]').forEach(el => this.io.observe(el));
+    this._tick();
+  }
+  componentDidUpdate() { this.applyProps(); }
+  componentWillUnmount() {
+    this._alive = false;
+    if (this.io) this.io.disconnect();
+  }
+  applyProps() {
+    document.body.style.setProperty('--acc', this.props.accent ?? '#3ddc7a');
+    document.body.classList.toggle('gentle', (this.props.motion ?? 'cinematic') === 'gentle');
+  }
+  renderVals() {
+    return { beta: String(this.props.betaCount ?? 13) };
+  }
+}
+</script>
 </body>
 </html>
